@@ -1,7 +1,7 @@
 import * as React from 'react'
 // import {toast} from 'react-toastify'
 
-import {useStorage} from '../utils/auth-provider'
+import {useStorage} from '../hooks/useStorage'
 
 const AuthContext = React.createContext({})
 AuthContext.displayName = 'AuthContext'
